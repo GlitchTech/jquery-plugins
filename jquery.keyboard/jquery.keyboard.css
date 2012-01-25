@@ -1,0 +1,70 @@
+.write {
+    margin: 0 0 5px;
+    padding: 5px;
+    width: 671px;
+    height: 200px;
+    font: 1em/1.5 Verdana, Sans-Serif;
+		border: 1px solid red;
+}
+
+/************************************/
+
+._kc .keyboard-row {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    clear: left
+}
+
+._kc .keyboard-row .visibility,
+._kc .keyboard-row .key {
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 40px;
+    height: 40px;
+}
+
+._kc .keyboard-row .visibility .ui-button-text {
+	margin-top: 5px;
+}
+
+._kc .keyboard-row .ui-button-text-only .ui-button-text {
+	padding: .4em 0.7em;
+}
+
+._kc .keyboard-row .tab,
+._kc .keyboard-row .delete {
+    width: 70px;
+}
+
+._kc .keyboard-row .capslock {
+    width: 80px;
+}
+
+._kc .keyboard-row .return {
+    width: 77px;
+}
+
+._kc .keyboard-row .left-shift {
+    width: 95px;
+}
+
+._kc .keyboard-row .right-shift {
+    width: 109px;
+}
+
+._kc .lastitem {
+    margin-right: 0px !important;
+}
+
+._kc .uppercase {
+    text-transform: uppercase;
+}
+
+._kc .keyboard-row .space {
+    width: 681px;
+}
+
+._kc .clear {
+	clear: both;
+}
