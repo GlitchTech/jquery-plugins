@@ -17,5 +17,3 @@ $( '#myCheckboxElem' ).toggleButton( {
 			});
 
 All settings are optional. Default labels are 'On' and 'Off'. Default classes are ui-state-default for 'off' and ui-state-active for 'on'.
-
-Licensed under the GPL license: http://www.gnu.org/licenses/gpl.html

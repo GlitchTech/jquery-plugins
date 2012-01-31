@@ -6,8 +6,19 @@
  * @requires jQueryUI
  *
  * @author Matthew Schott <ryltar@ku.edu>
- * Licensed under the GPL license:
- * http://www.gnu.org/licenses/gpl.html
+------------------------------------------------------------------------
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+	 http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+------------------------------------------------------------------------
  */
 
 var methods = {
@@ -71,6 +82,8 @@ var methods = {
 		return this.each( function() {
 
 				var data = jQuery( this ).data( 'toggleButton' );
+
+				data['label'].removeClass( "ui-state-default ui-state-hover ui-state-focus ui-state-active ui-state-highlight ui-state-error ui-state-disabled" );
 
 				if( data['self'].is( ":checked" ) ) {
 
